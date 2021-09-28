@@ -1,1 +1,2 @@
-This is a readme.
+Organization name: FreshGGINC
+Tony Chamoun Github username: TonyChamoun7
