@@ -17,3 +17,11 @@ https://www.ubisoft.com/en-ca/
 -logo top right
 -drop down menus(idk what theyre called?) when hovering over tabs in nav bar
 >>>>>>> c381f7fe8d2e7a572d6e03cdac9664d6b142b7d1
+
+http://waaarhol.com/
+-simple flat colours and fonts
+-scrolling is cool
+http://yayoi-kusama.jp/e/information/
+-cool fonts
+-unique off centered design
+-some icons move when you hover over them
