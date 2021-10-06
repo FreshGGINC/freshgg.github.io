@@ -14,8 +14,13 @@ https://www.apple.com/ca/?afid=p238%7CsEnMtlDRF-dc_mtid_1870765e38482_pcrid_5497
 -minimalistic/monochromatic
 https://www.ubisoft.com/en-ca/
 -i prefer the idea of a scrolling website, more modern and professional, sharp edges 
+<<<<<<< Updated upstream
 -logo top right
 -drop down menus(idk what theyre called?) when hovering over tabs in nav bar
+=======
+-logo top right or left (design a logo?)
+-drop down menus(idk what theyre called?) when hovering over tabs in nav bar
+>>>>>>> Stashed changes
 >>>>>>> c381f7fe8d2e7a572d6e03cdac9664d6b142b7d1
 
 <<<<<<< HEAD
