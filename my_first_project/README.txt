@@ -50,3 +50,18 @@ https://www.youtube.com/
 -It also shows a textbox when you hover over buttons. I think it might be cool to have when you hover over a
  that it give a brief description of where the button will lead you
 >>>>>>> 700c220dda5f267fe44fe0dfaabbbbd1213f22d5
+
+
+https://www.amazon.ca/ref=ap_frn_logo
+- Like how the website displays a bunch of deals
+- The categories at the top (Grocery, prime, browsing history, home)
+- Cart section and oders in the top right 
+- Gift cards section at the bottom
+
+https://www.ubereats.com/ca/feed?ad_id=485886444200&campaign_id=10157756097&gclid=CjwKCAjw2P-KBhByEiwADBYWCuQH9kJjl4_cWyaO7iASbFdPDU44RBm-s9rSlVAZgYmg9SRrGITUYxoCCB8QAvD_BwE&gclsrc=aw.ds&kw=uber%20eats&kwid=kwd-125079392186&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMk90dGF3YSUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMkNoSUpyeE5SWDdJRnprd1I3UlhkTWVGUmFvbyUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E0NS40MjE1Mjk2JTJDJTIybG9uZ2l0dWRlJTIyJTNBLTc1LjY5NzE5MzA5OTk5OTk5JTdE&placement=&utm_campaign=CM2040311-search-google-brand_32_-99_CA-National_e_web_acq_cpc_en_Generics_Exact_uber%20eats_kwd-125079392186_485886444200_99207324422_e_c&utm_source=AdWords_Brand
+- The way that all the food is displayed is nice
+- Fastest delivery
+- The categories(Healthy,local,pizza)
+- Available offers
+- Vegetarian,gluten free and Allergy friendly
+- Highest rated
