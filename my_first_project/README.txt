@@ -84,4 +84,18 @@ https://bestofbyward.com/?gclid=EAIaIQobChMIx7mX7ui98wIV1AmICR2QpwAAEAAYBCAAEgKC
 - We could do the same thing but by changing for type of stores
 - There is a search bar which can be useful if customers want to find a specific product and its availability in stores.
 - There is an account icone  and a shopping cart on the right that could be used.
-- We could use it to enter the area you are in so that it shows all the nearest grocery stores.
+
+
+=======
+Khalid
+https://www.microsoft.com/en-ca/windows
+-It has a very nice interactive display 
+-It is very well organized and very easy to use
+-It advertises their latest product in a very impressive way
+-I really enjoy the white and blue colors in the website 
+
+https://twitter.com
+-I really like how everything is organized (logo on the top-left, search bar on the top right, trending bar on the right side and the timeline in the center)
+-I enjoy the fact you can customize how it looks (dark mode, blue-ish dark mode, and light mode) as well as the fact that you can change the colors of the buttons 
+-It updates each time someone who you follow tweets or even you tweet
+-This website is very good for marketing 
