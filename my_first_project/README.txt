@@ -5,6 +5,7 @@ Luke
 Camryn
 Jamie
 Tony
+Arina
 =======
 
 Website Inspirations (With description why):
@@ -65,3 +66,19 @@ https://www.ubereats.com/ca/feed?ad_id=485886444200&campaign_id=10157756097&gcli
 - Available offers
 - Vegetarian,gluten free and Allergy friendly
 - Highest rated
+
+=======
+Arina
+https://chefcookit.com/en?esl-k=google-ads%7Cns%7Cc550553610615%7Cmb%7Ck%7Cp%7Ct%7Cdc%7Ca77605724771%7Cg2035119326&wickedsource=google&wickedid=EAIaIQobChMIx7mX7ui98wIV1AmICR2QpwAAEAAYASAAEgJHXPD_BwE&wickedid=550553610615&wv=3.1&gclid=EAIaIQobChMIx7mX7ui98wIV1AmICR2QpwAAEAAYASAAEgJHXPD_BwE 
+- It is all in one page 
+- When scrolling, the background changes color and makes the icons move which is impressive
+- The simplicity of the appearance
+- The way the text is laid out on the main page (on the left)
+- I like the fact that the icones continuously move to the left.
+
+https://bestofbyward.com/?gclid=EAIaIQobChMIx7mX7ui98wIV1AmICR2QpwAAEAAYBCAAEgKCEPD_BwE
+- Each type of food has its own page
+- We could do the same thing but by changing for type of stores
+- There is a search bar which can be useful if customers want to find a specific product and its availability in stores.
+- There is an account icone  and a shopping cart on the right that could be used.
+- We could use it to enter the area you are in so that it shows all the nearest grocery stores.
