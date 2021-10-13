@@ -44,3 +44,14 @@
     position: relative;
     font-size: 0.9em'
 }
+
+.Purchase-plan_benefit:not(:last-child) {
+    margin-bottom: 0.5em
+}
+
+.Purchase-plan_benefit::before{
+    content: "\2714";
+    color:#dd0b0b;
+    position: absolute;
+    left: 0;
+}
