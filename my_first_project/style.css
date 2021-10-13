@@ -1,0 +1,30 @@
+.Purchase-plan{
+    width: 300px;
+    border-radius: 25 px;
+    box-shadow: 0 0 5px rgba(27, 25, 25, 0.2);
+    overflow: hidden;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #eb0b0b;
+    margin: 10px;
+}
+
+.Purchase-plan_header{
+    padding: 20 px;
+    background: #009578;
+    color: #ffffff;
+}
+
+.Purchase-plan_title
+.Purchase-plan_summary {
+    margin: 0;
+    text-align: center;
+
+}
+
+.Purchase-plan_title{
+    font-size: 1.5em;
+    font-weight: 350;
+}
+
