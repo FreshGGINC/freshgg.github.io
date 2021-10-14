@@ -1,4 +1,4 @@
-.Purchase-plan {
+.Instant-plan {
     width: 300px;
     border-radius: 25px;
     box-shadow: 0 0 5px rgba(27, 25, 25, 0.2);
@@ -10,34 +10,34 @@
     margin: 15px;
 }
 
-.Purchase-plan_header{
+.Instant-plan_header{
     padding: 25 px;
     background: #009578;
     color: #ffffff;
 }
 
-.Purchase-plan_title,
-.Purchase-plan_summary {
+.Instant-plan_title,
+.Instant-plan_summary {
     margin: 0;
     text-align: center;
 
 }
 
-.Purchase-plan_title{
+.Instant-plan_title{
     font-size: 1.5em;
     font-weight: 350;
 }
 
-.Purchase-plan_description {
+.Instant-plan_description {
     padding: 25px;
 }
 
-.Purchase-plan_list {
+.Instant-plan_list {
     padding: 0;
     margin: 0;
 }
 
-.Purchase-plan_benefit{
+.Instant-plan_benefit{
     list-style: none;
     margin: 0;
     padding-left: 25px;
@@ -45,13 +45,40 @@
     font-size: 0.9em'
 }
 
-.Purchase-plan_benefit:not(:last-child) {
+.Instant-plan_benefit:not(:last-child) {
     margin-bottom: 0.5em
 }
 
-.Purchase-plan_benefit::before{
+.Instant-plan_benefit::before{
     content: "\2714";
     color:#dd0b0b;
     position: absolute;
     left: 0;
+}
+
+.Instant-plan_actions{
+    padding: 25px;
+    border-top: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: column;
+}
+
+.Instant-plan_cost{
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    color: #000000;
+}
+
+.Instant-plan_text{
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.Instant-plan-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
