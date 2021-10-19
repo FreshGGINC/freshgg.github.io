@@ -99,3 +99,13 @@ https://twitter.com
 -I enjoy the fact you can customize how it looks (dark mode, blue-ish dark mode, and light mode) as well as the fact that you can change the colors of the buttons 
 -It updates each time someone who you follow tweets or even you tweet
 -This website is very good for marketing 
+
+
+
+COLOR PALETTE:
+
+Garnett: #59152E - For Accents and making things pop
+Dark Green: #006912 - For Accents and making things pop
+Off White/Green: #C8DFD4 - Background color for menus, etc
+Off White: #F2F2F2 -Main Background
+Black:0D0D0D - Outlines and Accents, Text color
