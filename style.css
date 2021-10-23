@@ -126,4 +126,6 @@
 }
 #nav a {
     color: #2F3841;
+    text-decoration: none;
+    font-size: 15px;
 }
