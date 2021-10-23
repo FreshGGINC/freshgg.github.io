@@ -113,19 +113,22 @@
 }
 
 #nav {
-    background-color: #fff;
-}
-#nav ul {
+    background-color: #009578;
     padding: 0;
     margin: 0;
+}
+#nav ul {
+    padding: 5px;
+    margin: 10px;
     list-style: none;
 }
 #nav li {
     display: inline;
-    padding: 5px 5px;
+    padding: 20px;
 }
 #nav a {
-    color: #2F3841;
+    color: #ffffff;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
