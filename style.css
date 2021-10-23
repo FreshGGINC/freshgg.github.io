@@ -112,3 +112,18 @@
     left: 16px;
 }
 
+#nav {
+    background-color: #fff;
+}
+#nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#nav li {
+    display: inline;
+    padding: 5px 5px;
+}
+#nav a {
+    color: #2F3841;
+}
