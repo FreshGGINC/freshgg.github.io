@@ -10,6 +10,7 @@ Oct 2021
         <meta name='viewport' content='width=device-width, intial-scale=1'>
         <style type text='css'>
 
+            /*side menu section */
             .sidemenu{
                 height: 100%;
                 width: 12%;
@@ -17,7 +18,7 @@ Oct 2021
                 z-index: 1;
                 top: 0;
                 left: 0;
-                background-color: #C8DFD4;
+                background-color: #D4AA9A;
                 overflow-x: hidden;
                 padding-top: 15px;
                 transition: 0.5s;
@@ -26,7 +27,7 @@ Oct 2021
 
             .sidemenu a-menu{
                 display: inline-block;
-                border: 2px solid grey;
+                border: 2px solid #C99D8E7A;
                 padding: 10px 20px;
                 color: black;
                 border-radius: 5px;
@@ -36,8 +37,8 @@ Oct 2021
             }
 
             .sidemenu a-menu:hover{
-                box-shadow: 5px 5px 5px #006912;
-                border: 2px solid #59152E;
+                box-shadow: 5px 5px 5px #A45350;
+                border: 2px solid rgb(228, 217, 217);
             }
 
             .sidemenu h2{
@@ -46,28 +47,82 @@ Oct 2021
                 font-size: 25px;
             }
 
+
+
+
+
+
+
+
+            /*This section is for the items oon sale*/
             .productCard{
                 box-shadow: 0 4px 8px 0 #0D0D0D;
                 transition: 0.3s;
-                height: 25%;
-                width: 15%;
-                background-color: #C8DFD4;
+                height: 30%;
+                width: 10%;
+                background-color: #D4AA9A;
                 border-radius: 10px;
-                
+                position: fixed;
+
             }
 
             .productCard:hover{
-                box-shadow: 0 8px 16px 0 #0D0D0D;
+                box-shadow: 0 8px 16px 0 #C99D8E7A;
+                border: 2px rgb(228, 217, 217)
             }
 
             .productContainer {
                 text-align: center;
-                padding:  5px 2px ;
-                background-color: #C8DFD4;
+                padding:  5px;
+                background-color: #D4AA9A;
                 border-radius:2px;
 
             }
 
+            #iOne{
+                left: 18%;
+                top: 21%;
+            }
+
+            #iTwo{
+                left: 33%;
+                top: 20%;
+            }
+            
+            #iThree{
+                left: 48%;
+                top: 20%;
+            }
+
+            #iFour{
+                left: 63%;
+                top: 20%;
+            }
+
+            #iFive{
+                left: 18%;
+                top: 55%;
+            }
+
+            #iSix{
+                left: 33%;
+                top: 55%;
+            }
+
+            #iSeven{
+                left: 48%;
+                top: 55%;
+            }
+
+            #iEight{
+                left: 63%;
+                top: 55%;
+            }
+
+            
+
+
+            /*Section of code is for the add on right side of the website */
             .AdRight {
                 right:0;
             }
@@ -76,30 +131,35 @@ Oct 2021
                 padding-right: 0%;
             }
 
+
+
+
+
+
             body{
                 background: #3c5e49;
-                margin-left: 15%;
-                margin-right: 15%
+                margin-left: 12%;
+                margin-right: 20%
                 
             }
 
             h1{
                 text-align: center;
-                color: #C8DFD4;
-                text-shadow: 2px 1px grey; 
+                color: rgb(228, 217, 217);
+                text-shadow: 2px 1px rgba(128, 128, 128, 0.144); 
 
             }
             
             h2{
                 text-align: center;
-                color: #C8DFD4;
-                text-shadow: 2px 1px grey; 
+                color: #EEE;
+                text-shadow: 2px 1px rgba(128, 128, 128, 0.144); 
             }
 
             h3{
                 text-align: center;
                 font-size: 30;
-                color: #3c5e49;
+                color: #506056;
             }
 
             a-menu dairy-button{
@@ -116,24 +176,120 @@ Oct 2021
         <title>Shop Now @ FreshGG!</title>
 
         <h1 id= 'Welcome-Header';'>Welcome To The FreshGG Online Shopping Center!</h1>
-
-        <h2 id= 'Section-Header'>Shop Now!</h2> <!--This header will change to display the 'Section' of the store the user is in. i.e Dairy, Butcher Shop, etc-->
     
-
-        <h2 id= 'Menu-Header'>Menu</h2>
+        <h1 id= 'Section-Header'>Todays Top Deals!</h2> <!--This header will change to display the 'Section' of the store the user is in. i.e Dairy, Butcher Shop, etc-->
 
         
 
     </body>
 
-    <div id='Item-one' class='productCard'> <!--Example of a Tab showing the product-->
+    <div id='iOne' class='productCard'> <!--Example of a Tab showing the product-->
 
-        <img src='ShopNow!-Images/Cherry-Coca-Cola.jpg' alt='Butchers-Cover' style=' position: relative; width: 80%; height: 70%; left: 10%; top: 2%'>
+        <img src='ShopNow!-Images/Cherry-Coca-Cola.jpg' alt='Butchers-Cover' style=' position: relative; width: 80%; height: 50%; left: 10%; top: 2%'>
 
         <div class='productContainer'>
 
-            <h4><b>Coca-Cola Cherry 500ml</b></h21>       
-            <p><b>$1.99</b></p>
+            <h4>Coca-Cola Cherry 500ml
+            </h4>  
+            <p>In Stock ~ $1.99</p>     
+            <div><button id='atc-CherCoca'>ADD TO CART</button></div>     
+
+        </div>
+    </div>
+
+    <div id='iTwo' class='productCard'> <!--Example of a Tab showing the product-->
+
+        <img src='ShopNow!-Images/Cherry-Coca-Cola.jpg' alt='Butchers-Cover' style=' position: relative; width: 80%; height: 50%; left: 10%; top: 2%'>
+
+        <div class='productContainer'>
+
+            <h4>Coca-Cola Cherry 500ml
+            </h4>  
+            <p>In Stock ~ $1.99</p>     
+            <div><button id='atc-CherCoca'>ADD TO CART</button></div>     
+
+        </div>
+    </div>
+
+    <div id='iThree' class='productCard'> <!--Example of a Tab showing the product-->
+
+        <img src='ShopNow!-Images/Cherry-Coca-Cola.jpg' alt='Butchers-Cover' style=' position: relative; width: 80%; height: 50%; left: 10%; top: 2%'>
+
+        <div class='productContainer'>
+
+            <h4>Coca-Cola Cherry 500ml
+            </h4>  
+            <p>In Stock ~ $1.99</p>     
+            <div><button id='atc-CherCoca'>ADD TO CART</button></div>     
+
+        </div>
+    </div>
+
+    <div id='iFour' class='productCard'> <!--Example of a Tab showing the product-->
+
+        <img src='ShopNow!-Images/Cherry-Coca-Cola.jpg' alt='Butchers-Cover' style=' position: relative; width: 80%; height: 50%; left: 10%; top: 2%'>
+
+        <div class='productContainer'>
+
+            <h4>Coca-Cola Cherry 500ml
+            </h4>  
+            <p>In Stock ~ $1.99</p>     
+            <div><button id='atc-CherCoca'>ADD TO CART</button></div>     
+
+        </div>
+    </div>
+
+    <div id='iFive' class='productCard'> <!--Example of a Tab showing the product-->
+
+        <img src='ShopNow!-Images/Cherry-Coca-Cola.jpg' alt='Butchers-Cover' style=' position: relative; width: 80%; height: 50%; left: 10%; top: 2%'>
+
+        <div class='productContainer'>
+
+            <h4>Coca-Cola Cherry 500ml
+            </h4>  
+            <p>In Stock ~ $1.99</p>     
+            <div><button id='atc-CherCoca'>ADD TO CART</button></div>     
+
+        </div>
+    </div>
+
+    <div id='iSix' class='productCard'> <!--Example of a Tab showing the product-->
+
+        <img src='ShopNow!-Images/Cherry-Coca-Cola.jpg' alt='Butchers-Cover' style=' position: relative; width: 80%; height: 50%; left: 10%; top: 2%'>
+
+        <div class='productContainer'>
+
+            <h4>Coca-Cola Cherry 500ml
+            </h4>  
+            <p>In Stock ~ $1.99</p>     
+            <div><button id='atc-CherCoca'>ADD TO CART</button></div>     
+
+        </div>
+    </div>
+
+    <div id='iSeven' class='productCard'> <!--Example of a Tab showing the product-->
+
+        <img src='ShopNow!-Images/Cherry-Coca-Cola.jpg' alt='Butchers-Cover' style=' position: relative; width: 80%; height: 50%; left: 10%; top: 2%'>
+
+        <div class='productContainer'>
+
+            <h4>Coca-Cola Cherry 500ml
+            </h4>  
+            <p>In Stock ~ $1.99</p>     
+            <div><button id='atc-CherCoca'>ADD TO CART</button></div>     
+
+        </div>
+    </div>
+
+    <div id='iEight' class='productCard'> <!--Example of a Tab showing the product-->
+
+        <img src='ShopNow!-Images/Cherry-Coca-Cola.jpg' alt='Butchers-Cover' style=' position: relative; width: 80%; height: 50%; left: 10%; top: 2%'>
+
+        <div class='productContainer'>
+
+            <h4>Coca-Cola Cherry 500ml
+            </h4>  
+            <p>In Stock ~ $1.99</p>     
             <div><button id='atc-CherCoca'>ADD TO CART</button></div>     
 
         </div>
@@ -175,7 +331,7 @@ Oct 2021
     </div>
 
     <div class='AdRight'>
-        <img src='ShopNow!-Images/Placeholder.png' alt='Farmhouse-Cover' style='float: bottom; width: 12%; height: 100%; position: absolute; right: 0%; top: 0%;'>
+        <img src='ShopNow!-Images/Placeholder.png' alt='Farmhouse-Cover' style='float: bottom; width: 20%; height: 100%; position: absolute; right: 0%; top: 0%;'>
     </div>
 
 
