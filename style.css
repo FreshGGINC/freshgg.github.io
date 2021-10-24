@@ -1,43 +1,49 @@
-.Instant-plan {
-    width: 300px;
+/*Pricing page*/
+
+.Purchase-plan {
+    width: 450px;
     border-radius: 25px;
-    box-shadow: 0 0 5px rgba(27, 25, 25, 0.2);
+    box-shadow: 0 0 35px rgba(27, 25, 25, 0.2);
     overflow: hidden;
     font-family: sans-serif;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 2.0;
     color: #eb0b0b;
-    margin: 15px;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 85%;
+    transform: translate(0%, 10%);
 }
 
-.Instant-plan_header{
-    padding: 25 px;
-    background: #009578;
+.Purchase-plan_header{
+    padding: 25px;
+    background: #cf2727;
     color: #ffffff;
 }
 
-.Instant-plan_title,
-.Instant-plan_summary {
+.Purchase-plan_title,
+.Purchase-plan_summary {
     margin: 0;
     text-align: center;
 
 }
 
-.Instant-plan_title{
+.Purchase-plan_title{
     font-size: 1.5em;
     font-weight: 350;
 }
 
-.Instant-plan_description {
+.Purchase-plan_description {
     padding: 25px;
 }
 
-.Instant-plan_list {
+.Purchase-plan_list {
     padding: 0;
     margin: 0;
 }
 
-.Instant-plan_benefit{
+.Purchase-plan_benefit{
     list-style: none;
     margin: 0;
     padding-left: 25px;
@@ -45,35 +51,34 @@
     font-size: 0.9em'
 }
 
-.Instant-plan_benefit:not(:last-child) {
+.Purchase-plan_benefit:not(:last-child) {
     margin-bottom: 0.5em
 }
 
-.Instant-plan_benefit::before{
+.Purchase-plan_benefit::before{
     content: "\2714";
     color:#dd0b0b;
     position: absolute;
     left: 0;
 }
 
-.Instant-plan_actions{
+.Purchase-plan_actions{
     padding: 25px;
-    border-top: 1px solid #eeeeee;
+    border-top: 1px solid #b91515;
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: 150px;
 }
 
-.Instant-plan_cost{
+.Purchase-plan_cost{
     margin: 0;
     text-align: center;
     font-size: 2em;
     color: #000000;
-}
-
-.Instant-plan_text{
-    font-size: 0.9em;
-    text-align: center;
-    margin: 0 0 10px 0;
+    position: relative;
+    top: 25px
+    
 }
 
 .Cart{
@@ -87,12 +92,15 @@
 }
 .Cart-Container{
     width: 45%;
-    height: 60%;
+    height: 80%;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0px 25px 40px #1687d933;
-    padding: 70px;
-    transform: translate(2%, 15%);
+    padding: 20px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    transform: translate(0%, 13%);
 }
 .Cart-Header{
     margin: auto;
@@ -109,8 +117,9 @@
     color: #2F3841;
     position: absolute;
     top: 8px;
-    left: 16px;
+    left: 300px;
 }
+/* Nav bar*/
 
 #nav {
     background-color: #009578;
