@@ -102,10 +102,19 @@ https://twitter.com
 
 
 
-COLOR PALETTE:
+COLOR PALETTE :
 
-Garnett: #59152E - For Accents and making things pop
-Dark Green: #006912 - For Accents and making things pop
-Off White/Green: #C8DFD4 - Background color for menus, etc
-Off White: #F2F2F2 -Main Background
-Black:0D0D0D - Outlines and Accents, Text color
+Garnett : #59152E - For Accents and making things pop
+Dark Green : #006912 - For Accents and making things pop
+Off White/Green : #C8DFD4 - Background color for menus, etc
+Off White : #F2F2F2 -Main Background
+Black : 0D0D0D - Outlines and Accents, Text color
+
+The team page color palette :
+
+Background : #3c5e49
+Box-shadow : #A45350
+h1 : rgb(228, 217, 217)
+h2 : #EEE
+h4 : #E0AB98
+p : #FBE3D1
