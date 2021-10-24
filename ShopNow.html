@@ -6,42 +6,89 @@ Oct 2021
 -->
 
 <html>
+    <head>
+        <meta name='viewport' content='width=device-width, intial-scale=1'>
         <style type text='css'>
+
+            .sidemenu{
+                height: 100%;
+                width: 12%;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #C8DFD4;
+                overflow-x: hidden;
+                padding-top: 15px;
+                transition: 0.5s;
+
+            }
+
+            .sidemenu a-menu{
+                display: inline-block;
+                border: 2px solid grey;
+                padding: 10px 20px;
+                background: C8DFD4;
+                color: black;
+                border-radius: 5px;
+                box-shadow: 3px 3px 5px black;
+                transition: 200ms;    
+                
+                font-size: 17;
+                text-emphasis-style:
+                
+            }
+
+            .sidemenu a-menu:hover{
+                box-shadow: 5px 5px 5px #006912;
+                border: 2px solid #59152E;
+            }
+
+            .sidemenu h2{
+                text-align: center;
+                color: #006912;
+                font-size: 25px;
+            }
+
+            .productCard{
+                box-shadow: 0 4px 8px 0 #0D0D0D;
+                transition: 0.3s;
+                height: 25%;
+                width: 15%;
+                background-color: #C8DFD4;
+                
+            }
+
+            .productCard:hover{
+                box-shadow: 0 8px 16px 0 #0D0D0D;
+            }
+
+            .productContainer {
+                text-align: center;
+                padding:  5px 2px ;
+                background-color: #C8DFD4;
+            }
+
+            .AdRight {
+                right:0;
+            }
+
+            .AdRight img{
+                padding-right: 0%;
+            }
+
+            body{
+                background: #F2F2F2;
+                margin-left: 15%;
+                margin-right: 15%
+                
+            }
 
             h1{
                 text-align: center;
                 color: green;
                 text-shadow: 2px 1px grey; 
 
-            }
-
-            h2{
-                text-align: center;
-                color: green
-            }
-            
-            a-menu{
-                display: inline-block;
-                border: 2px solid grey;
-                padding: 10px 20px;
-                text-decoration: none;
-                background: honeydew;
-                color: black;
-                border-radius: 5px;
-                box-shadow: 3px 3px 5px black;
-                transition: 200ms
-                
-                
-            }
-
-            body{
-                background: whitesmoke;
-                
-            }
-            
-            a-menu:hover{
-                box-shadow: 5px 5px 5px grey;
-                border: 2px solid green;
             }
             
             p1{
@@ -50,70 +97,82 @@ Oct 2021
                 background: whitesmoke;
             }
 
-        </style>
+            a-menu dairy-button{
+                background-image:  src='ShopNow!-Images/Cherry-Coca-Cola.jpg' alt='Butchers-Cover';
+            }
 
-    <head>
+        </style>
+    </head>
+
+    
+
+    <body>
+
+        <title>Shop Now @ FreshGG!</title>
+
         <h1 id= 'Welcome-Header';'>Welcome To The FreshGG Online Shopping Center!</h1>
 
         <h2 id= 'Section-Header'>Shop Now!</h2> <!--This header will change to display the 'Section' of the store the user is in. i.e Dairy, Butcher Shop, etc-->
-    </head>
+    
 
-    <body>
         <h2 id= 'Menu-Header'>Menu</h2>
 
-        <section id='Item-one'> <!--Example of a Tab showing the product-->
-            <p1 id= 'Desc-One'> 
-
-                <img src='ShopNow!-Images/Cherry-Coca-Cola.jpg' alt='Butchers-Cover' style=' position: relative;width: 140px; height: 80px;'>
-
-                <div>Coca-Cola Cherry 500ml</div>
-                <div>In Stock Online</div>
-                <div>$1.99</div>
-                <div><button id='atc-CherCoca'>ADD TO CART</button></div>
-
-            
-
-            </p1>
-        </section>
-
-        <section id='side-menu'>
-
-            <a-menu href='#' id='Dairy-Button'>Shop @ the Dairy Barn
-                <img src='ShopNow!-Images/dairy-cover.jpg' alt='Dairy-Cover' style='float: bottom; width: 140px; height: 80px;'>
-            </a-menu>   
-
-            <a-menu href='#' id='Butcher-Button'>Shop @ the Butcher
-                <img src='ShopNow!-Images/butchers-cover.jpg' alt='Butcher-Cover' style=' position: relative;width: 140px; height: 80px;'>
-            </a-menu>
-
-            <a-menu href='#' id='Bakery-Button'>Shop @ the Bakery
-                <img src='ShopNow!-Images/bakery-cover.jpg' alt='Bread-Cover' style='float: inline-end; width: 140px; height: 80px;'>
-            </a-menu>
-
-            <a-menu href='#' id='Fresh-Button'>Shop @ the Farmhouse
-                <img src='ShopNow!-Images/farmhouse-cover.jpg' alt='Farmhouse-Cover' style='float: bottom; width: 140px; height: 80px;'>
-            </a-menu>
-
-            <a-menu href='#' id='Sweets-Button'>Shop @ the Sweets Shop
-                <img src='ShopNow!-Images/sweet-cover.jpg' alt='Sweets-Cover' style='float: bottom; width: 140px; height: 80px;'>
-            </a-menu>
-
-            <a-menu href='#' id='Fishy-Button'>Shop @ the Catchery
-                <img src='ShopNow!-Images/catchery-cover.jpg' alt='Catchery-Cover' style='float: under; width: 140px; height: 80px;'>
-            </a-menu>
-
-            <a-menu href='#' id='Drinks-Button'>Shop @ the Tavern <!--Really need to think of a better name for this one...-->
-                <img src='ShopNow!-Images/tavern-cover.jpg' alt='Tavern-Cover' style='float: bottom; width: 140px; height: 80px;'>
-            </a-menu> 
-           
-             
-        </section>
-
-        <div><img src='ShopNow!-Images/Placeholder.png' alt='Farmhouse-Cover' style='float: bottom; width: 250px; height: 500px;'></div>
+        
 
     </body>
 
-        
+    <div id='Item-one' class='productCard'> <!--Example of a Tab showing the product-->
+
+        <img src='ShopNow!-Images/Cherry-Coca-Cola.jpg' alt='Butchers-Cover' style=' position: relative; width: 80%; height: 70%; left: 10%; top: 2%'>
+
+        <div class='productContainer'>
+
+            <h21><b>Coca-Cola Cherry 500ml</b></h21>
+            <h22>In Stock Online</h22>
+            <p21><b>$1.99</b></p21>
+            <div><button id='atc-CherCoca'>ADD TO CART</button></div>     
+
+        </div>
+    </div>
+
+    <div id='SN_SideMenu' class='sidemenu'>
+
+        <h2 id= 'Menu-Header'>Menu</h2>
+
+        <a-menu href='#' id='Dairy-Button'><b>Shop @ the Dairy Barn</b>
+            <img src='ShopNow!-Images/dairy-cover.jpg' alt='Dairy-Cover' style='float: bottom; width: 140px; height: 80px;'>
+        </a-menu>   
+
+        <a-menu href='#' id='Butcher-Button'><b>Shop @ the Butcher</b>
+            <img src='ShopNow!-Images/butchers-cover.jpg' alt='Butcher-Cover' style=' position: relative;width: 140px; height: 80px;'>
+        </a-menu>
+
+        <a-menu href='#' id='Bakery-Button'><b>Shop @ the Bakery</b>
+            <img src='ShopNow!-Images/bakery-cover.jpg' alt='Bread-Cover' style='float: inline-end; width: 140px; height: 80px;'>
+        </a-menu>
+
+        <a-menu href='#' id='Fresh-Button'><b>Shop @ the Farmhouse</b>
+            <img src='ShopNow!-Images/farmhouse-cover.jpg' alt='Farmhouse-Cover' style='float: bottom; width: 140px; height: 80px;'>
+        </a-menu>
+
+        <a-menu href='#' id='Sweets-Button'><b>Shop @ the Sweets Shop</b>
+            <img src='ShopNow!-Images/sweet-cover.jpg' alt='Sweets-Cover' style='float: bottom; width: 140px; height: 80px;'>
+        </a-menu>
+
+        <a-menu href='#' id='Fishy-Button'><b>Shop @ the Catchery</b>
+            <img src='ShopNow!-Images/catchery-cover.jpg' alt='Catchery-Cover' style='float: under; width: 140px; height: 80px;'>
+        </a-menu>
+
+        <a-menu href='#' id='Drinks-Button'><b>Shop @ the Tavern</b> <!--Really need to think of a better name for this one...-->
+            <img src='ShopNow!-Images/tavern-cover.jpg' alt='Tavern-Cover' style='float: bottom; width: 140px; height: 80px;'>
+        </a-menu> 
+       
+         
+    </div>
+
+    <div class='AdRight'>
+        <img src='ShopNow!-Images/Placeholder.png' alt='Farmhouse-Cover' style='float: bottom; width: 12%; height: 100%; position: absolute; right: 1%; top: 0%;'>
+    </div>
 
 
 
