@@ -130,7 +130,7 @@
     border-color: #111010;
     color: #111010;
     text-align: center;
-    width: 593px;
+    width: 592px;
     height: 70px;
     display: flex;
     position: absolute;
@@ -144,7 +144,7 @@
     border-color: #111010;
     color: #111010;
     text-align: center;
-    width: 593px;
+    width: 592px;
     height: 70px;
     display: flex;
     position: absolute;
@@ -165,9 +165,9 @@
     font-size: 22px;
     font-family: ‘Arial’;
     font-weight: 800;
-    color: #080808;
+    color: #070707;
     position: absolute;
-    right: 270px;
+    right: 275px;
     top: 205px;
 }
 
@@ -189,7 +189,7 @@
     border-color: #111010;
     color: #111010;
     text-align: center;
-    width: 593px;
+    width: 592px;
     height: 70px;
     display: flex;
     position: absolute;
@@ -227,9 +227,28 @@
     top: 10px;
 }
 
+.basic-button{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+    position: absolute;
+    top: 230px;
+    right: 65px;
+}
 
-
-
+.subscription-button{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+    position: absolute;
+    top: 330px;
+    right: 64.5px;
+}
+input[type='radio'] { 
+    transform: scale(2.5); 
+}
 
 /* Nav bar*/
 
