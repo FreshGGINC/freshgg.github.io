@@ -227,27 +227,60 @@
     top: 10px;
 }
 
-.basic-button{
-    display: inline-flex;
-    align-items: center;
-    cursor: pointer;
-    margin-right: 10px;
+.Prices-Display{
+    padding: 15px;
+    background: #faf8f8;
+    border-style: solid;
+    border-color: #111010;
+    color: #111010;
+    text-align: center;
+    width: 350px;
+    height: 180px;
+    display: flex;
     position: absolute;
-    top: 230px;
-    right: 65px;
+    top: 400px;
+    right: 100px;  
 }
 
-.subscription-button{
+.Button-Display{
     display: inline-flex;
     align-items: center;
-    cursor: pointer;
-    margin-right: 10px;
+    position: absolute;
+    top: 230px;
+    right: 64.5px;
+}
+
+.Button-Display_two{
+    display: inline-flex;
+    align-items: center;
     position: absolute;
     top: 330px;
     right: 64.5px;
 }
-input[type='radio'] { 
-    transform: scale(2.5); 
+.sub-total-display{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    font-size: 30px;
+    top: 1px;
+    color: rgb(255, 0, 0);
+}
+.tax-display{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    font-size: 30px;
+    top: 70px;
+    color: rgb(247, 7, 7);
+}
+
+.total-display{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    font-size: 30px;
+    top: 130px;
+    color: rgb(253, 7, 7);
 }
 
 /* Nav bar*/

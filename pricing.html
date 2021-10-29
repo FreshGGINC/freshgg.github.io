@@ -4,8 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel= "stylesheet" href="./style.css">
+    <script type="text/javascript" src="main.js"></script>
    
-
 </head>
 
 <body>
@@ -65,18 +65,25 @@
             </div>
             <div class="amount">$4.99</div>
             <div class="amount-two">$7.99 / Month</div>
-            <form>
-                <div class="basic-button">
-                    <input type="radio" id="PurchaseChoice1"
-                    name="total" value="Basic-total">
-                    <label for="PurchaseChoice1"></label>
-                </div>
-                <div class="subscription-button">
-                    <input type="radio" id="PurchaseChoice2"
-                    name="total" value="Subscription-total">
-                    <label for="PurchaseChoice2"></label>
-                </div>           
-            </form>           
+
+            <div class ="Button-Display">
+                <button onclick="addCart_one();addCart_tax_one();addCart_total_one()">+</button>
+                <p id="x1">0</p>
+                <button onclick="removeCart_one()">-</button>
+            </div>
+
+            <div class ="Button-Display_two">
+                <button onclick="addCart_two();addCart_tax_two();addCart_total_two();">+</button>
+                <p id="x2">0</p>
+                <button onclick="removeCart_two()">-</button>
+            </div>
+
+            <div class="Prices-Display">
+                <h1 class="sub-total-display" id="price">Sub-Total: $0</h1>
+                <h2 class = "tax-display" id="tax">Tax: $0</h2>
+                <h3 class = "total-display" id="total">Total: $0</h2>
+            </div>
+
         </div>
     </section>
 </section>
