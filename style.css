@@ -3,12 +3,12 @@
 .Purchase-plan {
     width: 450px;
     border-radius: 25px;
-    box-shadow: 0 0 35px rgba(27, 25, 25, 0.2);
+    box-shadow: 0 0 35px #C8DFD4;
     overflow: hidden;
     font-family: sans-serif;
     font-size: 16px;
     line-height: 2.0;
-    color: #eb0b0b;
+    color: #59152E;
     margin: 20px;
     padding: 20px;
     box-sizing: border-box;
@@ -18,7 +18,7 @@
 
 .Purchase-plan_header{
     padding: 25px;
-    background: #cf2727;
+    background: #59152E;
     color: #ffffff;
 }
 
@@ -57,14 +57,14 @@
 
 .Purchase-plan_benefit::before{
     content: "\2714";
-    color:#dd0b0b;
+    color:#59152E;
     position: absolute;
     left: 0;
 }
 
 .Purchase-plan_actions{
     padding: 25px;
-    border-top: 1px solid #b91515;
+    border-top: 1px solid #59152E;
     display: flex;
     flex-direction: column;
     position: sticky;
@@ -76,7 +76,7 @@
     margin: 0;
     text-align: center;
     font-size: 2em;
-    color: #000000;
+    color: #0D0D0D;
     position: sticky;
     top: 225px
 }
@@ -84,7 +84,7 @@
 .Cart{
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom right, #fafdfb, #ebe7e6);
+    background: linear-gradient(to bottom right, #F2F2F2, #F2F2F2);
     height: 100vh;
     display: flex;
     justify-content: left;
@@ -93,9 +93,9 @@
 .Cart-Container{
     width: 45%;
     height: 80%;
-    background-color: #ffffff;
+    background-color: #F2F2F2;
     border-radius: 20px;
-    box-shadow: 0px 25px 40px #1687d933;
+    box-shadow: 0px 25px 40px #C8DFD4;
     padding: 20px;
     display: flex;
     align-items: right;
@@ -107,7 +107,7 @@
     font-size: 25px;
     font-family: ‘Arial’;
     font-weight: 550;
-    color: #2F3841;
+    color: #0D0D0D;
     position: absolute;
     top: 8px;
     left: 255px;
@@ -127,8 +127,8 @@
     padding: 15px;
     background: #faf8f8;
     border-style: solid;
-    border-color: #111010;
-    color: #111010;
+    border-color: #59152E;
+    color: #0D0D0D;
     text-align: center;
     width: 592px;
     height: 70px;
@@ -141,8 +141,8 @@
     padding: 15px;
     background: #f5f4f4;
     border-style: solid;
-    border-color: #111010;
-    color: #111010;
+    border-color: #59152E;
+    color: #0D0D0D;
     text-align: center;
     width: 592px;
     height: 70px;
@@ -157,7 +157,7 @@
     font-size: 22px;
     font-family: ‘Arial’;
     font-weight: 550;
-    color: #080808;
+    color: #0D0D0D;
 }
 
 .amount{
@@ -165,7 +165,7 @@
     font-size: 22px;
     font-family: ‘Arial’;
     font-weight: 800;
-    color: #070707;
+    color: #0D0D0D;
     position: absolute;
     right: 275px;
     top: 205px;
@@ -176,7 +176,7 @@
     font-size: 22px;
     font-family: ‘Arial’;
     font-weight: 800;
-    color: #0e0d0d;
+    color: #0D0D0D;
     position: absolute;
     right: 220px;
     top: 308px;
@@ -184,10 +184,10 @@
 
 .Cart-Header{
     padding: 15px;
-    background: #eb0b0b;
+    background: #59152E;
     border-style: solid;
-    border-color: #111010;
-    color: #111010;
+    border-color: #59152E;
+    color: #0D0D0D;
     text-align: center;
     width: 592px;
     height: 70px;
@@ -201,6 +201,7 @@
     font-size: 1.5em;
     font-weight: 350;
     font-family: Arial;
+    color: #ffffff;
     text-align: center;
     position: absolute;
     left: 40px;
@@ -211,6 +212,7 @@
     font-size: 1.5em;
     font-weight: 350;
     font-family: Arial;
+    color: #ffffff;
     text-align: center;
     position: absolute;
     right: 270px;
@@ -221,6 +223,7 @@
     font-size: 1.5em;
     font-weight: 350;
     font-family: Arial;
+    color: #ffffff;
     text-align: center;
     position: absolute;
     right: 50px;
@@ -229,10 +232,11 @@
 
 .Prices-Display{
     padding: 15px;
-    background: #faf8f8;
+    background: #59152E;
     border-style: solid;
-    border-color: #111010;
-    color: #111010;
+    border-color: #faf8f8;
+    border-radius: 20px;
+    color: #faf8f8;
     text-align: center;
     width: 350px;
     height: 180px;
@@ -267,7 +271,7 @@
     align-items: center;
     font-size: 30px;
     top: 1px;
-    color: rgb(255, 0, 0);
+    color: #faf8f8;
 }
 .tax-display{
     display: flex;
@@ -275,7 +279,7 @@
     align-items: center;
     font-size: 30px;
     top: 70px;
-    color: rgb(247, 7, 7);
+    color: #faf8f8;
 }
 
 .total-display{
@@ -284,7 +288,7 @@
     align-items: center;
     font-size: 30px;
     top: 130px;
-    color: rgb(253, 7, 7);
+    color: #faf8f8;
 }
 
 /* Nav bar*/
