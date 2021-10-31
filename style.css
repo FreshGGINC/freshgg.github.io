@@ -84,7 +84,7 @@
 .Cart{
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom right, #fafcfd, #ebe7e6);
+    background: linear-gradient(to bottom right, #fafdfb, #ebe7e6);
     height: 100vh;
     display: flex;
     justify-content: left;
@@ -246,7 +246,9 @@
     display: inline-flex;
     align-items: center;
     position: absolute;
-    top: 230px;
+    font-weight: 400;
+    font-size: 20px;
+    top: 206px;
     right: 64.5px;
 }
 
@@ -254,7 +256,9 @@
     display: inline-flex;
     align-items: center;
     position: absolute;
-    top: 330px;
+    font-weight: 400;
+    font-size: 20px;
+    top: 307px;
     right: 64.5px;
 }
 .sub-total-display{
