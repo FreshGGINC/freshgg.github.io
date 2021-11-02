@@ -5,13 +5,18 @@
     <style>
             h1{
                 margin: 0px;
+               
+            }
+            div.background{
                 background-image: url("home images/homeBackground.jpg");
                 filter: brightness(100%);
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover; 
+                filter: brightness(50%);
+                filter:blur(30%);
             }
-            a.title{
+            div.title{
                 text-align: center;
                 color: white;
                 text-shadow: 2px;
@@ -19,19 +24,15 @@
                 text-decoration: none;
                 padding: 50px;
                 font-size: 50px;
+                text-decoration: none;
 
             }
             body{
                 background-color: #EEE;
                 margin: 0px;
             }
-
-            a{
-                color: #3c5e49;  
-                text-decoration: none;
-            }
             h2{
-                margin:2% 5%;
+                margin:20px 30px;
                 padding: 10px;
                 border-style:solid;
                 border-color: #3c5e49;
@@ -45,10 +46,10 @@
 </head>
 <body>
     <h1>
+        <div class=background>
         <img id=logo src="home images/GeeGeesLogo.png">
-        
-            <a class="title" href="" >Fresh GeeGees Inc.</a> 
-
+        <div class="title" href="" >Fresh GeeGees Inc.</div> 
+        </div>
     </h1> 
         <h2> About Us</h2>
         <p>  
