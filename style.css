@@ -328,7 +328,7 @@ src: "home images/GeeGeesLogo.png"
 
 #logo{
     border: 2px solid #3c5e49;   
-    height: 5%;  
+    height: 10%;  
     margin: 2%;  
-    border-radius: 10%; 
+    border-radius: 10%;  
 }
