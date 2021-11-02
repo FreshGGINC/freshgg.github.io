@@ -320,3 +320,15 @@
 #nav li:hover{
     background: #ddd;
 }
+
+/*
+Use this for a temp logo image, feel free to make changes
+src: "home images/GeeGeesLogo.png"
+*/
+
+#logo{
+    border: 2px solid #3c5e49;   
+    height: 10%;  
+    margin: 2%;  
+    border-radius: 10%; 
+}
