@@ -8,8 +8,10 @@ body, h1, h2, h3, h4, h5, h6, a{
 
 .Purchase-plan {
     width: 450px;
+    background: #ffffff;
     border-radius: 25px;
-    box-shadow: 0 0 35px #C8DFD4;
+    border-style: solid;
+    border-color: #59152E;
     overflow: hidden;
     font-family: sans-serif;
     font-size: 16px;
@@ -19,7 +21,7 @@ body, h1, h2, h3, h4, h5, h6, a{
     padding: 20px;
     box-sizing: border-box;
     height: 85%;
-    transform: translate(0%, 10%);
+    transform: translate(-3%, 10%);
 }
 
 .Purchase-plan_header{
@@ -90,7 +92,7 @@ body, h1, h2, h3, h4, h5, h6, a{
 .Cart{
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom right, #F2F2F2, #F2F2F2);
+    background: #C8DFD4;
     height: 100vh;
     display: flex;
     justify-content: left;
@@ -98,15 +100,16 @@ body, h1, h2, h3, h4, h5, h6, a{
 }
 .Cart-Container{
     width: 45%;
-    height: 80%;
+    height: 79%;
     background-color: #F2F2F2;
     border-radius: 25px;
-    box-shadow: 0px 25px 40px #C8DFD4;
+    border-style: solid;
+    border-color: #59152E;
     padding: 20px;
     display: flex;
     align-items: right;
     justify-content: right;
-    transform: translate(0%, 13%);
+    transform: translate(-1%, 13%);
 }
 
 .Cart-Heading{
@@ -245,10 +248,10 @@ body, h1, h2, h3, h4, h5, h6, a{
     color: #faf8f8;
     text-align: center;
     width: 350px;
-    height: 180px;
+    height: 190px;
     display: flex;
     position: absolute;
-    top: 400px;
+    top: 397px;
     right: 100px;  
 }
 
@@ -298,6 +301,13 @@ body, h1, h2, h3, h4, h5, h6, a{
     font-size: 30px;
     top: 130px;
     color: #faf8f8;
+}
+
+.Nav-Pricing{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 98.85%;
 }
 
 /* Nav bar*/
