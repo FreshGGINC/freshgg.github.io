@@ -20,16 +20,17 @@
                 background-position: center;
                 background-size: cover; 
                 filter: brightness(50%);
-                filter: blur(30%);
+                filter: blur(70%);
                 position: absolute;
                 top: 0; left: 0;
                 width: 100%;
                 height: 100%;
             }
-            div.title{
+            a.title{
+                display: block;
                 position: relative;
                 text-align: center;
-                color: white;
+                color: #EEE;
                 text-shadow: 2px;
                 text-shadow: black;
                 text-decoration: none;
@@ -55,6 +56,7 @@
                 float: right;
                 border: solid;
                 border-color: #3c5e49;
+
             }
             
     </style>
@@ -62,8 +64,11 @@
 <body>
     <h1>
         <div class=background>
-        <img id=logo src="home images/GeeGeesLogo.png">
-        <a class="title" href="/" >Fresh GeeGees Inc.</a> 
+        <!--
+            logo will be in the nav bar not home page
+            <img id=logo src="home images/GeeGeesLogo.png">
+        -->
+            <a class="title" href="/" >Fresh GeeGees Inc.</a> 
         </div>
     </h1> 
     <h2>About Us</h2>
@@ -71,8 +76,8 @@
     <p >  
         <hr>
         <strong>The only online superstore UOttawa students will ever need!</strong> 
-        <br> 
         <img class="intext"src="home images/uOttawaLogo.jpg">
+        <br> 
         UOttawa students can use FreshGGs online platform to order all their grocery needs, without the hassle of leaving the comfort of their own home! This app is designed to cater to university students’ every online grocery need. From finding out what stock is available in the nearest stores, to ordering their groceries online and checking out the student rewards program.
         <i><em><blockquote>"A new way to shop"</blockquote></em></i>
     </p>
