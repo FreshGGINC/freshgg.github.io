@@ -312,30 +312,7 @@ body, h1, h2, h3, h4, h5, h6, a{
 
 /* Nav bar*/
 
-#nav {
-    background: #EEE;
-    padding: 0;
-    margin: -10;
-}
-#nav ul {
-    padding: 15px;
-    margin-block-end: 0px;
-    list-style: none;
-}
-#nav li {
-    display: inline;
-    padding: 17px 25px;
-}
-#nav a {
-    color: #3c5e49;
-    text-decoration: none;
-    font-size: 17px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-#nav li:hover{
-    background: #ddd;
-}
+/*nav bar styling moved to another file*/
 
 /*
 Use this for a temp logo image, feel free to make changes
