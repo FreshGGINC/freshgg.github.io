@@ -312,7 +312,58 @@ body, h1, h2, h3, h4, h5, h6, a{
 
 /* Nav bar*/
 
-/*nav bar styling moved to another file*/
+.navhead{
+    width: 101%;
+    height: 50px;
+    background-color: #3c5e49;
+    margin-top: 0px;
+    margin-left: -10px;
+}
+
+.navlogo{
+    padding: 3px;
+    position: absolute;
+    float: left;
+    margin-left: 1%;
+    margin-top: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    font-size: 25px;
+}
+
+.navbuttons{
+    width: auto;
+    float: right;
+    margin-top: 0px;
+}
+
+.click{
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.links{
+    text-align: center;
+    color: #eeeeee;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.click:hover{
+    background-color: rgb(39, 65, 49);
+    transition: 0.5s;
+}
+
+.links:hover{
+    color: #aaa;
+    transition: 0.5s;
+}
+
+.navbuttons:hover{
+    color: rgb(37, 61, 46);
+    transition: 0.5s;
+}
 
 /*
 Use this for a temp logo image, feel free to make changes
