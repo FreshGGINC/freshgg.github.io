@@ -1,12 +1,12 @@
-header{
+.navhead{
     width: 100%;
     height: 50px;
-    background-color: #59152E;
+    background-color: #3c5e49;
     margin-top: -10px;
     margin-left: -10px;
 }
 
-h1{
+.navlogo{
     padding: 3px;
     position: absolute;
     float: left;
@@ -17,18 +17,18 @@ h1{
     font-size: 25px;
 }
 
-ul{
+.navbuttons{
     width: auto;
     float: right;
     margin-top: 0px;
 }
 
-li{
+.click{
     display: inline-block;
     padding: 15px 30px;
 }
 
-a{
+.links{
     text-align: center;
     color: #eeeeee;
     text-decoration: none;
@@ -36,22 +36,17 @@ a{
     font-size: 15px;
 }
 
-li:hover{
-    background-color: #350d1b;
+.click:hover{
+    background-color: #263f30;
     transition: 0.5s;
 }
 
-a:hover{
+.links:hover{
     color: #aaa;
     transition: 0.5s;
 }
 
-ul:hover{
-    color: #350d1b;
+.navbuttons:hover{
+    color: #263f30;
     transition: 0.5s;
-}
-
-img{
-    width: 100%;
-    margin-top: -16px;
 }
