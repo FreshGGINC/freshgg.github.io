@@ -14,10 +14,11 @@ Oct 2021
             .sidemenu{
                 height: 100%;
                 width: 12%;
-                position: fixed;
-                z-index: 1;
-                top: 0;
+                position:  absolute;
+                z-index: -1;
+                top: 0%;
                 left: 0;
+                z-index:-1;
                 background-color: #D4AA9A;
                 overflow-x: hidden;
                 padding-top: 15px;
@@ -26,7 +27,7 @@ Oct 2021
             }
 
             .sidemenu a-menu{
-                display: inline-block;
+                display: block;
                 border: 2px solid #C99D8E7A;
                 padding: 10px 20px;
                 color: black;
@@ -46,8 +47,6 @@ Oct 2021
                 color: #006912;
                 font-size: 25px;
             }
-
-
 
 
 
@@ -81,45 +80,43 @@ Oct 2021
 
             #iOne{
                 left: 18%;
-                top: 20%;
+                top: 25%;
             }
 
             #iTwo{
                 left: 33%;
-                top: 20%;
+                top: 25%;
             }
             
             #iThree{
                 left: 48%;
-                top: 20%;
+                top: 25%;
             }
 
             #iFour{
                 left: 63%;
-                top: 20%;
+                top: 25%;
             }
 
             #iFive{
                 left: 18%;
-                top: 55%;
+                top: 60%;
             }
 
             #iSix{
                 left: 33%;
-                top: 55%;
+                top: 60%;
             }
 
             #iSeven{
                 left: 48%;
-                top: 55%;
+                top: 60%;
             }
 
             #iEight{
                 left: 63%;
-                top: 55%;
+                top: 60%;
             }
-
-            
 
 
             /*Section of code is for the add on right side of the website */
@@ -129,17 +126,85 @@ Oct 2021
 
             .AdRight img{
                 padding-right: 0%;
+                z-index: -1;
             }
 
 
 
+
+            /*Nav Bar */
+
+            .sn-Header{
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+            }
+
+            .navhead{
+                top:0%;
+                left: 0%;
+                width: 101%;
+                height: 50px;
+                background-color: #5f9273;
+                margin-top: 0;
+                margin-left: -10;
+
+            }
+
+            .navlogo{
+                padding: 3px;
+                position: absolute;
+                float: left;
+                margin-left: 1%;
+                margin-top: 6px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #eee;
+                font-size: 25px;
+            }
+
+            .navbuttons{
+                width: auto;
+                float: right;
+                margin-top: 0px;
+            }
+
+            .click{
+                display: inline-block;
+                padding: 15px 30px;
+            }
+
+            .links{
+                text-align: center;
+                color: #eeeeee;
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+            }
+
+            .click:hover{
+                background-color: #517c62;
+                transition: 0.5s;
+            }
+
+            .links:hover{
+                color: #aaa;
+                transition: 0.5s;
+            }
+
+            .navbuttons:hover{
+                color: rgb#517c62;
+                transition: 0.5s;
+            }
 
 
 
             body{
                 background: #3c5e49;
                 margin-left: 12%;
-                margin-right: 20%
+                margin-right: 20%;
+                margin-top: 4%;
+
                 
             }
 
@@ -168,14 +233,28 @@ Oct 2021
 
         </style>
     </head>
-
-
+    
+    <div class='sn-Header'>
+        <header class="navhead">
+            <h1 class="navlogo">FreshGGs</h1>
+            <nav class="nav">
+                <div class="navbar">
+                    <ul class="navbuttons">
+                        <li class="click"><a class="links" href="./index.html">Index</a>
+                        <li class="click"><a class="links" href="./features.html">Features</a>                        <li class="click"><a class="links" href="./team.html">Our Team</a>
+                        <li class="click"><a class="links" href="./pricing.html">Pricing</a>
+                        <li class="click"><a class="links" href="./ShopNow.html">Shop Now!</a>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
 
     <body>
 
         <title>Shop Now @ FreshGG!</title>
 
-        <h1 id= 'Welcome-Header';'>Welcome To The FreshGG Online Shopping Center!</h1>
+        <h1 id= 'Welcome-Header'>Welcome To The FreshGG Online Shopping Center!</h1>
     
         <h1 id= 'Section-Header'>Todays Top Deals!</h2> <!--This header will change to display the 'Section' of the store the user is in. i.e Dairy, Butcher Shop, etc-->
 
@@ -331,7 +410,7 @@ Oct 2021
     </div>
 
     <div class='AdRight'>
-        <img src='ShopNow!-Images/Placeholder.png' alt='Farmhouse-Cover' style='float: bottom; width: 20%; height: 100%; position: absolute; right: 0%; top: 0%;'>
+        <img src='ShopNow!-Images/adRight.png' alt='Farmhouse-Cover' style='float: bottom; width: 20%; height: 95%; position: absolute; right: 0%; top: 5%;'>
     </div>
 
 
@@ -344,7 +423,7 @@ Oct 2021
         document.getElementById('Section-Header').textContent ='Welcome to The Dairy Barn!' 
 
         document.getElementById('imgOne').src='ShopNow!-Images/chocMilk.png'
-        document.getElementById('h4iOne').textContent = 'Beatrice Chocolate Milk'
+        document.getElementById('h4iOne').textContent = 'Chocolate Milk 6 pack'
         document.getElementById('piOne').textContent = 'In Stock ~ $2.99'
 
         document.getElementById('imgTwo').src='ShopNow!-Images/1perMilk.png'
@@ -379,29 +458,217 @@ Oct 2021
     function clickButcher(){
         document.getElementById('Section-Header').textContent ='Welcome to The Butcher!'
 
-        document.getElementById('imgOne').src='ShopNow!-Images/SirloinSteak.jpg'
+        document.getElementById('imgOne').src='ShopNow!-Images/butSirloinSteak.jpg'
         document.getElementById('h4iOne').textContent = 'Top Sirloin Steak 10oz'
         document.getElementById('piOne').textContent = 'In Stock ~ $11.99'
+
+        document.getElementById('imgTwo').src='ShopNow!-Images/butChickenBreast.jpg'
+        document.getElementById('h4iTwo').textContent = 'Chicken Breasts'
+        document.getElementById('piTwo').textContent = 'In Stock ~ $9.99'
+
+        document.getElementById('imgThree').src='ShopNow!-Images/butChickenWings.jpg'
+        document.getElementById('h4iThree').textContent = 'Chicken Wings'
+        document.getElementById('piThree').textContent = 'In Stock ~ $7.49'
+
+        document.getElementById('imgFour').src='ShopNow!-Images/butLamb.jpg'
+        document.getElementById('h4iFour').textContent = 'Lamb Steaks'
+        document.getElementById('piFour').textContent = 'In Stock ~ $9.99'
+
+        document.getElementById('imgFive').src='ShopNow!-Images/butPBBurger.png'
+        document.getElementById('h4iFive').textContent = 'Plant-Based Burger'
+        document.getElementById('piFive').textContent = 'In Stock ~ $10.25'
+
+        document.getElementById('imgSix').src='ShopNow!-Images/butChickenLegs.png'
+        document.getElementById('h4iSix').textContent = 'Chicken Legs'
+        document.getElementById('piSix').textContent = 'In Stock ~ $8.49'
+
+        document.getElementById('imgSeven').src='ShopNow!-Images/butPorkChop.jpg'
+        document.getElementById('h4iSeven').textContent = 'Pork Chops'
+        document.getElementById('piSeven').textContent = 'In Stock ~ $\8.99'
+
+        document.getElementById('imgEight').src='ShopNow!-Images/butVenison.png'
+        document.getElementById('h4iEight').textContent = 'Venison'
+        document.getElementById('piEight').textContent = 'In Stock  ~ $9.49'
     }
 
     function clickBakery(){
         document.getElementById('Section-Header').textContent ='Welcome to The Bakery!' 
+
+        document.getElementById('imgOne').src='ShopNow!-Images/bBagels.jpg'
+        document.getElementById('h4iOne').textContent = 'Plain Bagels'
+        document.getElementById('piOne').textContent = 'In Stock ~ $4.99'
+
+        document.getElementById('imgTwo').src='ShopNow!-Images/bChocSwirlBrioche.jpg'
+        document.getElementById('h4iTwo').textContent = 'Chocolate Swirl Brioche'
+        document.getElementById('piTwo').textContent = 'In Stock ~ $5.99'
+
+        document.getElementById('imgThree').src='ShopNow!-Images/bCinnamonBuns.jpg'
+        document.getElementById('h4iThree').textContent = 'Fresh Cinnamon Buns'
+        document.getElementById('piThree').textContent = 'In Stock ~ $6.99'
+
+        document.getElementById('imgFour').src='ShopNow!-Images/bSesameBagels.jpg'
+        document.getElementById('h4iFour').textContent = 'Sesame Bagels'
+        document.getElementById('piFour').textContent = 'In Stock ~ $4.99'
+
+        document.getElementById('imgFive').src='ShopNow!-Images/bCinnamonRaisinBrioche.jpg'
+        document.getElementById('h4iFive').textContent = 'Cinnamon Raisin Brioche'
+        document.getElementById('piFive').textContent = 'In Stock ~ $5.99'
+
+        document.getElementById('imgSix').src='ShopNow!-Images/bCookies.jpg'
+        document.getElementById('h4iSix').textContent = 'Fresh Cookies'
+        document.getElementById('piSix').textContent = 'In Stock ~ $5.49'
+
+        document.getElementById('imgSeven').src='ShopNow!-Images/bMixeddonuts.jpg'
+        document.getElementById('h4iSeven').textContent = '8 Assorted Donuts'
+        document.getElementById('piSeven').textContent = 'In Stock ~ $5.49'
+
+        document.getElementById('imgEight').src='ShopNow!-Images/bSoftFrench.jpg'
+        document.getElementById('h4iEight').textContent = 'Soft French Bread'
+        document.getElementById('piEight').textContent = 'In Stock  ~ $3.99'
     }
     
     function clickFarmhouse(){
         document.getElementById('Section-Header').textContent ='Welcome to The Farmhouse!' 
+
+        document.getElementById('imgOne').src='ShopNow!-Images/fAppleBasket.jpg'
+        document.getElementById('h4iOne').textContent = 'Apple Basket'
+        document.getElementById('piOne').textContent = 'In Stock ~ $7.99'
+
+        document.getElementById('imgTwo').src='ShopNow!-Images/fBananas.jpg'
+        document.getElementById('h4iTwo').textContent = 'Bananas'
+        document.getElementById('piTwo').textContent = 'In Stock ~ $3.49'
+
+        document.getElementById('imgThree').src='ShopNow!-Images/fBellPeppers.jpg'
+        document.getElementById('h4iThree').textContent = 'Bell Peppers'
+        document.getElementById('piThree').textContent = 'In Stock ~ $2.49'
+
+        document.getElementById('imgFour').src='ShopNow!-Images/fCarrots.jpg'
+        document.getElementById('h4iFour').textContent = '3 lbs of Carrots '
+        document.getElementById('piFour').textContent = 'In Stock ~ $1.99'
+
+        document.getElementById('imgFive').src='ShopNow!-Images/fFruitBasket.jpg'
+        document.getElementById('h4iFive').textContent = 'The Fruit Basket'
+        document.getElementById('piFive').textContent = 'In Stock ~ $7.99'
+
+        document.getElementById('imgSix').src='ShopNow!-Images/fVeggiesBasket.jpg'
+        document.getElementById('h4iSix').textContent = 'The Veggie Basket'
+        document.getElementById('piSix').textContent = 'In Stock ~ $7.99'
+
+        document.getElementById('imgSeven').src='ShopNow!-Images/fMushrooms.jpeg'
+        document.getElementById('h4iSeven').textContent = '8oz Mushrooms'
+        document.getElementById('piSeven').textContent = 'In Stock ~ $2.99'
+
+        document.getElementById('imgEight').src='ShopNow!-Images/fLettuce.jpg'
+        document.getElementById('h4iEight').textContent = 'Lettuce'
+        document.getElementById('piEight').textContent = 'In Stock  ~ $3.49'
     }
 
     function clickSweets(){
         document.getElementById('Section-Header').textContent ='Welcome to The Sweets Shop!' 
+
+        document.getElementById('imgOne').src='ShopNow!-Images/sMintAreo.jpg'
+        document.getElementById('h4iOne').textContent = 'Mint Areo Bar'
+        document.getElementById('piOne').textContent = 'In Stock ~ $1.49'
+
+        document.getElementById('imgTwo').src='ShopNow!-Images/sJubeJubes.jpg'
+        document.getElementById('h4iTwo').textContent = 'Jube Jubes'
+        document.getElementById('piTwo').textContent = 'In Stock ~ $5.99'
+
+        document.getElementById('imgThree').src='ShopNow!-Images/sMars.jpg'
+        document.getElementById('h4iThree').textContent = 'Mars Bar'
+        document.getElementById('piThree').textContent = 'In Stock ~ $2.49'
+
+        document.getElementById('imgFour').src='ShopNow!-Images/sSkittles.jpg'
+        document.getElementById('h4iFour').textContent = 'Skittles'
+        document.getElementById('piFour').textContent = 'In Stock ~ $2.99'
+
+        document.getElementById('imgFive').src='ShopNow!-Images/sAreo.png'
+        document.getElementById('h4iFive').textContent = 'Lactose-Free Marble Cheese'
+        document.getElementById('piFive').textContent = 'In Stock ~ $2.25'
+
+        document.getElementById('imgSix').src='ShopNow!-Images/sKitKat.png'
+        document.getElementById('h4iSix').textContent = 'Medium Cheddar'
+        document.getElementById('piSix').textContent = 'In Stock ~ $3.49'
+
+        document.getElementById('imgSeven').src='ShopNow!-Images/sBBQChips.jpg'
+        document.getElementById('h4iSeven').textContent = 'Lay\'sBBQChips'
+        document.getElementById('piSeven').textContent = 'In Stock ~ $3.99'
+
+        document.getElementById('imgEight').src='ShopNow!-Images/sMM.jpg'
+        document.getElementById('h4iEight').textContent = 'Mixed M&M\'s'
+        document.getElementById('piEight').textContent = 'In Stock  ~ $4.99'
     }
 
     function clickCatchery(){
         document.getElementById('Section-Header').textContent ='Welcome to The Catchery!' 
+
+        document.getElementById('imgOne').src='ShopNow!-Images/cCod.jpg'
+        document.getElementById('h4iOne').textContent = 'Cod'
+        document.getElementById('piOne').textContent = 'In Stock ~ $9.99'
+
+        document.getElementById('imgTwo').src='ShopNow!-Images/cJumboShrimp.jpg'
+        document.getElementById('h4iTwo').textContent = 'Jumbo Shrimp'
+        document.getElementById('piTwo').textContent = 'In Stock ~ $7.49'
+
+        document.getElementById('imgThree').src='ShopNow!-Images/cKingCrab.jpg'
+        document.getElementById('h4iThree').textContent = 'King Crab'
+        document.getElementById('piThree').textContent = 'In Stock ~ $11.49'
+
+        document.getElementById('imgFour').src='ShopNow!-Images/cOrgSalmon.jpg'
+        document.getElementById('h4iFour').textContent = 'Organic Atlantic Salmon'
+        document.getElementById('piFour').textContent = 'In Stock ~ $10.99'
+
+        document.getElementById('imgFive').src='ShopNow!-Images/cTuna.jpeg'
+        document.getElementById('h4iFive').textContent = 'Bluefin Tuna'
+        document.getElementById('piFive').textContent = 'In Stock ~ $8.25'
+
+        document.getElementById('imgSix').src='ShopNow!-Images/cSushi.jpg'
+        document.getElementById('h4iSix').textContent = 'Sushi Platter'
+        document.getElementById('piSix').textContent = 'In Stock ~ $12.49'
+
+        document.getElementById('imgSeven').src='ShopNow!-Images/cSeaBass.jpg'
+        document.getElementById('h4iSeven').textContent = 'Seas Bass'
+        document.getElementById('piSeven').textContent = 'In Stock ~ $8.99'
+
+        document.getElementById('imgEight').src='ShopNow!-Images/cMahi.jpg'
+        document.getElementById('h4iEight').textContent = 'Mahi Mahi'
+        document.getElementById('piEight').textContent = 'In Stock  ~ $9.49'
     }
 
     function clickTavern(){
         document.getElementById('Section-Header').textContent ='Welcome to The Tavern!' 
+
+        document.getElementById('imgOne').src='ShopNow!-Images/tCoca.jpg'
+        document.getElementById('h4iOne').textContent = 'Coca-Cola 6 pack'
+        document.getElementById('piOne').textContent = 'In Stock ~ $4.99'
+
+        document.getElementById('imgTwo').src='ShopNow!-Images/tWater.jpeg'
+        document.getElementById('h4iTwo').textContent = 'Evian Water 6 pack'
+        document.getElementById('piTwo').textContent = 'In Stock ~ $3.49'
+
+        document.getElementById('imgThree').src='ShopNow!-Images/tSprite.jpg'
+        document.getElementById('h4iThree').textContent = 'Sprite 6 pack'
+        document.getElementById('piThree').textContent = 'In Stock ~ $4.49'
+
+        document.getElementById('imgFour').src='ShopNow!-Images/tGatorade.jpeg'
+        document.getElementById('h4iFour').textContent = 'Gatorade 6 pack'
+        document.getElementById('piFour').textContent = 'In Stock ~ $5.99'
+
+        document.getElementById('imgFive').src='ShopNow!-Images/tRedBull.jpg'
+        document.getElementById('h4iFive').textContent = 'Red Bull 6 pack'
+        document.getElementById('piFive').textContent = 'In Stock ~ $10.99'
+
+        document.getElementById('imgSix').src='ShopNow!-Images/tVitWater.jpeg'
+        document.getElementById('h4iSix').textContent = 'Vitamin Water 6 pack'
+        document.getElementById('piSix').textContent = 'In Stock ~ $5.49'
+
+        document.getElementById('imgSeven').src='ShopNow!-Images/tIceTea.jpg'
+        document.getElementById('h4iSeven').textContent = 'Ice Tea 6 pack'
+        document.getElementById('piSeven').textContent = 'In Stock ~ $4.99'
+
+        document.getElementById('imgEight').src='ShopNow!-Images/tAppleJuice.jpg'
+        document.getElementById('h4iEight').textContent = 'Apple Juice'
+        document.getElementById('piEight').textContent = 'In Stock  ~ $3.99'
     }
 
     document.getElementById('Dairy-Button').addEventListener('click', clickDairy)
