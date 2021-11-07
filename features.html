@@ -46,13 +46,25 @@
     width: 33.33%;
     padding: 15px;
   }
-  
+
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  
+  .button {
+    background-color:#EEE;
+    border-color: #3c5e49;
+    Color: #3c5e49;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+    margin: 4% 8%;
+  }
   @media screen and (max-width:600px) {
     .column {
       width: 100%;
@@ -79,8 +91,11 @@
     </div>
     
     <div class="column">
-      <h2>Membership</h2>
-      <p>Find the Best Prices Avaliable</p>
+      <h2>Subscription</h2>
+      <p>Find great prices at FreshGGs by subscribing to us! For more information please go here.</p>
+      <button onclick="window.location.href='pricing.html';">
+        Subscribe 
+      </button>
     </div>
   </div>
   
