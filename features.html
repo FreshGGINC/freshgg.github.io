@@ -46,7 +46,8 @@
   .column {
     float: left;
     width: 33.33%;
-    padding: 15px;
+    padding: 20px;
+    text-align: center;
   }
 
   .row:after {
@@ -67,11 +68,14 @@
     text-align: center;
     margin: 4% 8%;
   }
+  
   @media screen and (max-width:600px) {
     .column {
       width: 100%;
     }
   }
+
+
   </style>
   </head>
   <body>
@@ -87,9 +91,13 @@
       <p>Find Deals for each product from each select different stores!</p>
     </div>
     
+    
     <div class="column">
       <h2>Stock Avaliablity</h2>
       <p>Find if what you want is avaliable in stock</p>
+      <button onclick="window.location.href='ShopNow.html';">
+        Shop Now!
+      </button>
     </div>
     
     <div class="column">
