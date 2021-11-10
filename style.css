@@ -382,3 +382,28 @@ src: "home images/GeeGeesLogo.png"
     margin: 2%;  
     border-radius: 10px;  
 }
+
+/* 
+if you name no changes to the button element it should default to this
+*/
+
+button{
+    background-color:#EEE;
+    border-color: #3c5e49;
+    Color: #3c5e49;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+    margin: 2% 5%;
+}
+button:hover {
+    box-shadow: 0px 0px 4px 2px #59152E;
+}
+
+body{
+    margin:0%;
+}
