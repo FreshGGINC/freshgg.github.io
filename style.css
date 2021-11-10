@@ -141,7 +141,7 @@ body, h1, h2, h3, h4, h5, h6, a{
     border-color: #59152E;
     color: #0D0D0D;
     text-align: center;
-    width: 592px;
+    width: 590px;
     height: 70px;
     display: flex;
     position: absolute;
@@ -156,7 +156,7 @@ body, h1, h2, h3, h4, h5, h6, a{
     border-color: #59152E;
     color: #0D0D0D;
     text-align: center;
-    width: 592px;
+    width: 590px;
     height: 70px;
     display: flex;
     position: absolute;
@@ -202,7 +202,7 @@ body, h1, h2, h3, h4, h5, h6, a{
     border-color: #59152E;
     color: #0D0D0D;
     text-align: center;
-    width: 592px;
+    width: 590px;
     height: 70px;
     display: flex;
     position: absolute;
@@ -404,6 +404,3 @@ button:hover {
     box-shadow: 0px 0px 4px 2px #59152E;
 }
 
-body{
-    margin:0%;
-}
