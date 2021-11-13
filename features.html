@@ -68,7 +68,15 @@
     text-align: center;
     margin: 4% 8%;
   }
+
+  .input {
+    width: 30%;
+  }
   
+  ul {
+    list-style-type: circle;
+  }
+
   @media screen and (max-width:600px) {
     .column {
       width: 100%;
@@ -82,19 +90,23 @@
   
   <div class="header">
     <h1>Feature</h1>
-    <p>FreshGGs offers a varity of features for you! (this is a temporary sentence I will think of something better later)</p>
+    <p>FreshGGs offers a varity of features for you! You can enter your coupon to get discounts for select products. You can check if anything you desire is avaliable in stock. You can also subscribe to our services for many shopping benefits and help support our business! So why not check them out and see if you can find anything that satisfies you!</p>
   </div>
   
   <div class="row">
     <div class="column">
-      <h2>DEALS</h2>
-      <p>Find Deals for each product from each select different stores!</p>
+      <h2>Deals</h2>
+      <p>To get great deals in FreshGGs, please enter an eligible coupon code!</p>
+      <form>
+        <label for="fnumber">Enter Coupon</label>
+        <input type="number" id="fnumber">
+      </form>
     </div>
     
     
     <div class="column">
       <h2>Stock Avaliablity</h2>
-      <p>Find if what you want is avaliable in stock</p>
+      <p>Shop now at FreshGGs and find what you want is in stock. FreshGGs offers a variaty of choices for all your grocery needs! </p>
       <button onclick="window.location.href='ShopNow.html';">
         Shop Now!
       </button>
@@ -102,7 +114,7 @@
     
     <div class="column">
       <h2>Subscription</h2>
-      <p>Find great prices at FreshGGs by subscribing to us! For more information please go here.</p>
+      <p>By subscribing to our service, FreshGGs offers great deals and benefits that can improve your grocery needs. For more information please press the subscribe button!</p>
       <button onclick="window.location.href='pricing.html';">
         Subscribe 
       </button>
