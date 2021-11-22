@@ -113,8 +113,9 @@ Black : 0D0D0D - Outlines and Accents, Text color
 The team page color palette :
 
 Background : #3c5e49
+Background-color (of the six boxes): #d4aa9aa9;
 Box-shadow : #A45350
-h1 : rgb(228, 217, 217)
-h2 : #EEE
-h4 : #E0AB98
-p : #FBE3D1
+h1 : #f3edeff3
+h2 : #f3edeff3
+h4 : #f3edeff3
+p : #f3edeff3

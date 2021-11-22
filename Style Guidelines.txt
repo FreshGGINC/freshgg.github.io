@@ -1,0 +1,22 @@
+Color palette :
+Garnett : #59152E - For Accents and making things pop
+Dark Green : #006912 - For Accents and making things pop
+Off White/Green : #C8DFD4 - Background color for menus, etc
+Off White : #F2F2F2 -Main Background
+Black : 0D0D0D - Outlines and Accents, Text color
+
+The team page color palette :
+
+Background : #3c5e49
+Box-shadow : #A45350
+h1 : #f3edeff3
+h2 : #f3edeff3
+h4 : #f3edeff3
+p : #f3edeff3
+
+Typography :
+
+Font-family used for the team page :
+1. "https://fonts.googleapis.com/css2?family=Nixie+One&display=swap"
+2. "https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap"
+3. Arial
