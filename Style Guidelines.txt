@@ -61,6 +61,12 @@ p : #f3edeff3
 =============================
 The pricing page color palette:
 
+Garnett : #59152E - 
+Dark Green : #006912 -
+Off White/Green : #C8DFD4 - 
+Off White : #F2F2F2 -
+Black : 0D0D0D
+White: #ffffff
 
 
 =============================
