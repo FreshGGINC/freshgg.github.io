@@ -1,9 +1,52 @@
-Color palette :
+Color palette (in general) :
 Garnett : #59152E - For Accents and making things pop
 Dark Green : #006912 - For Accents and making things pop
 Off White/Green : #C8DFD4 - Background color for menus, etc
 Off White : #F2F2F2 -Main Background
 Black : 0D0D0D - Outlines and Accents, Text color
+
+
+The navigation bar color palette :
+
+
+
+
+=============================
+
+The index page color palette :
+
+Title :
+title : #EEE
+text-shadow : black
+text-shadow : #59152E
+
+body : 
+background-color : #EEE
+
+h2 :
+border-color: #3c5e49
+
+img.intext :
+border-color : #3c5e49
+
+.border:
+border-color : #3c5e49
+
+button :
+background-color : #EEE
+border-color : #3c5e49
+Color : #3c5e49
+
+button:hover :
+box-shadow : #59152E
+
+=============================
+The features page color palette:
+
+
+
+
+=============================
 
 The team page color palette :
 
@@ -13,6 +56,20 @@ h1 : #f3edeff3
 h2 : #f3edeff3
 h4 : #f3edeff3
 p : #f3edeff3
+
+
+=============================
+The pricing page color palette:
+
+
+
+=============================
+The Shop Now page color palette:
+
+
+
+
+
 
 Typography :
 
